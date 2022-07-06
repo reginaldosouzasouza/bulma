@@ -1,0 +1,12 @@
+@media (min-width: 481px) and (max-width: 768px) { 
+    body {
+        background-color:orange;
+        text-align: center;
+        color:red;
+        font-size: 2rem;
+        margin-top: auto;
+        
+        font-weight: bolder;
+    }
+    }
+

@@ -1,0 +1,236 @@
+@charset "UTF-8";  
+
+
+@font-face {
+    font-family: 'bulma';
+    src: url('./fontes/magenta/Magenta_BBT.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+    font-family: 'bulma2';
+    src: url('./fontes/a_cuchillada/A-cuchillada-font-ffp.ttf') format('truetype');
+
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'bulma3';
+    src: url('../fontes/broadcast-titling/BroadcastTitling.ttf')format('truetype');
+
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+    font-family: 'bulma4';
+    src: url('../fontes/translator/Translator.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'bulma5';
+    src: url('../fontes/machiavelli/Machv2.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'bulmap1';
+    src: url('../fontes/royal-acidbath/Royalacid.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+    font-family: 'bulmap2';
+    src: url('./fontes/the-outbox-st/The Outbox St.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'bulmap3';
+    src: url('../fontes/fairly_oddfont/fairlyoddfont.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'bulmap4';
+    src: url('./fontes/monster-ag/Monster AG.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'bulmap5';
+    src: url('./fontes/ferro-rosso/FerroRosso.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+
+@media    (max-width: 480px) {
+
+        body {
+            background-color:darkgray;
+            text-align: justify;
+        }
+              
+        header {
+            background-color: darkgreen;
+           margin-top: -70px; 
+           text-align: justify;       
+       
+        }
+
+       
+           header { /*body é a tag que vc prentende alterar*/
+                background-color: blueviolet;       
+              }
+            
+              header h1 {
+            color:white;
+            font-family: 'bulmap2';
+            font-size: 4rem;
+            text-align: center; 
+            font-weight: bolder;              
+            margin-top: 70px;
+            
+        }
+
+       .logo  {  
+            
+        margin-top: 50px;    
+        object-fit: cover;        
+                                             
+        }
+        
+             
+            header h2 {
+            color:#FFFF00;
+            font-family: 'bulma', Arial, Helvetica, sans-serif;
+            font-size: 2.5rem;
+            text-align: center;  
+            margin-top: 0px; 
+            font-weight: bolder;   
+
+            }    
+            
+            header p {
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            text-align: center; 
+            font-weight: bolder; 
+            margin-bottom: 20px;
+            
+            } 
+
+            header h3 {
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            text-align: center; 
+            font-weight: bolder; 
+            margin-bottom: 20px;
+            }
+
+            .whatsbulma a {
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            text-align: center; 
+            font-weight: bolder;
+           margin-left: 100px;  
+           margin-top: 50px; 
+         
+
+            
+            color:white;
+            }
+
+            
+        
+.carrossel {
+    width: 200px; /*este é o tamanho da imagem do carrosel, se a imagem for 200px e vc digita 400 no width, vai aparece 2 imagens*/
+    height: 250px;
+   /* outline: 3px solid rgba(0, 0, 0, 0.801);*/
+    margin: 50px auto;
+   /* box-shadow: 20px 20px 35px 35px rgba(240, 3, 3, 0.884);*/
+   overflow: hidden;
+}
+
+.carrossel ul {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    height: 250px;
+}
+
+.carrossel li {
+    position: relative;
+    left: 200px;
+    animation: slide 15s infinite ease-out;
+    
+}
+  .legenda {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    
+
+  }
+
+@keyframes slide {
+    0% {left:0px}
+    10% {left:0px}
+
+    20% { left: -200px}
+    30% { left: -200Px}
+
+    40% { left: -400px}
+    50%  { left: -400px}
+
+    60% { left: -600px}
+    70% { left: -600px}
+   
+    80 { left: -800px}
+    90% { left: -800px} 
+
+
+   100% {left:0px} 
+
+}
+
+         footer#rodape {
+        clear : both;
+        margin-top: 10%;
+         text-align: center; 
+        /** background-color: rgba(43, 43, 43, 0.514);*/
+     }
+
+     footer#rodape h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+
+    }
+
+    footer#redesocial li {
+       display: inline-block;
+       padding: 25px;
+       
+    }
+           
+    footer#rodape a {
+        text-decoration:underline;
+        color:blue;
+    }  
+    
+}
+    
