@@ -8,46 +8,14 @@
  body {
      background-color:#8c8c8c;     
  }
-     .icones {
+ 
+    .icones {
         background-color: black;
-        position: relative;
-        color:white;
-        padding:15px
-        
-     } 
-     .icones a {
-        display: inline-flex;
-        margin: 0 40px;     
-        border-radius: 50px;
-        background-color: #f14130;
-        justify-content: center;
-        align-items: center;
-        transition: 0.4s;  
-        font-size: 30px;  
-        color:white;
-        text-decoration: none;
-        text-indent: ;
-        
-       
-     }
-      
-     .icones a:hover {
-        background-color: green;
-     }
+    }
+  
    
-       .icones a i {
-        transition: 00.04s all;
-     }
-     .icones a:hover > i {
-        transform: scale(1.6) rotate(25deg); 
-     }
+  
 
-     figcaption > h6 {
-     margin-left: 430px;
-     margin-top: -30px;
-     font-weight: bolder;
-     font-size: 1rem;
-     }
   
    
 
